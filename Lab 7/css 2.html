@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>css 2</title>
+	<style type="text/css">
+		body{
+			height: 100hv;
+		}
+		.page{
+			  background-color: aqua;
+		      height: 400px;
+		     }
+		.header{
+			height: 25px;
+			background-color: purple;
+		}
+		.content{
+			height: 300px;
+			background-color: orange;
+			padding: 20px;
+		}
+		.row{
+			float: left;
+			width: 50%;
+			box-sizing: border-box;
+		}
+		.entry{
+           background-color: black;
+           color: white;
+           height: 20px;
+           width: 100%;
+           margin-block: 20px;
+		}
+		.sidebar{
+			width: 300px;
+			background-color: black;
+			color: white;
+			height: 200px;
+			float: right;
+		}
+		.darshan{
+			height: 35px;
+			background-color: blue;
+	        color: white;
+		}
+		@media screen and (max-width: 250px){
+            .sidebar{
+            	background-color: pink;
+            	width: 100%;
+            	height:80px;
+            }
+            .location{
+            	width: 100%
+            }
+            .content{
+            	background-color: maroon;
+            	width: 100%;
+
+            }
+            .row{
+            	width: 90%;
+            }
+		}   
+		@media screen and (min-width: 250px) and (max-width: 1300px){
+			.sidebar{
+				background-color: midnightblue;
+				width: 100%;
+				height: 150px;
+			}
+			.content{
+				width: 100%;
+				height: 400px;
+				padding: 20px;
+				box-sizing: border-box;
+			}
+			.row{
+				width: 100%;
+			}
+			
+		}     
+
+
+
+
+	</style>
+</head>
+<body>
+ <div class="page">
+ <div class="header">Header</div>
+<div class="content">
+	<div class="row">Content
+	<div class="entry">Entry</div>
+	<div class="entry">Entry</div>
+	<div class="entry">Entry</div>
+</div>
+	<div class="sidebar">Sidebar</div>
+</div>
+<div class="darshan">Darshan University Rajkot</div></div>
+</body>
+</html>

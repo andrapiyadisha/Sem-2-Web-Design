@@ -1,0 +1,60 @@
+		.page{
+		background-color: lightblue; 
+		height: 500px;
+		 width: 1100px;
+		}
+		.header{
+			background-color: pink; 
+		    height: 20px;
+		    width: 1070px;
+		    margin-right: 10px;
+		    margin-left: 10px;
+		}
+		.content{
+			background-color: orange; 
+		    height: 400px;
+		    width: 1050px;
+		    padding: 10px;
+		    margin-right: 10px;
+		    margin-left: 10px;
+		   }
+		   .entry1{
+		   	background-color: black; 
+		    height: 20px;
+		    width: 500px;
+		    color: white;
+		    margin-left: 10px;
+		   }
+		   .entry2{
+		   	  background-color: black; 
+		    height: 20px;
+		    width: 500px;
+		    color: white;
+		    margin: 10px;
+		    ;
+		   }
+		   .entry3{
+		   	  background-color: black; 
+		    height: 20px;
+		    width: 500px;
+		    color: white;
+		     margin: 10px;
+		   }
+		   .row{
+		   	float:left;
+		   }
+		   .sidebar{
+		   	  background-color: black; 
+		    height: 100px;
+		    width: 200px;
+		    margin: 10px;
+		    color: white;
+		    float: right;
+		   }
+		   .darshan{
+		   	background-color: blue; 
+		    height: 20px;
+		    color: white;
+		    margin-right: 20px;
+		    margin-left: 10px;
+		   }
