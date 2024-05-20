@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Psudo Img</title>
+	<style type="text/css">
+		img{
+			filter: grayscale(100%);
+		}
+		img:hover{
+            filter: grayscale(0%);
+            scale: 300%;
+            transition-duration:0.1s;
+            rotate: 360deg;
+		}
+	</style>
+</head>
+<body>
+<nav>
+	<ul style="display: flex;gap: 480px; list-style-type: none;">
+		<li><img src="./B.jpg" height="200px" width="200px"></li>
+		<li><img src="./C.jpg" height="200px" width="200px"></li>
+	</ul>
+</nav>
+</body>
+</html>
