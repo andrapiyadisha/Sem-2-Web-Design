@@ -1,0 +1,145 @@
+.C1{
+	height: 60px;
+	width: 700px;
+	background-color: rgb(174, 149, 211);
+	position: absolute;
+	border: 1px solid rgb(174, 149, 211);
+	left: 430px;
+}
+.C2{
+	height: 400px;
+	width: 700px;
+	position: absolute;
+	border: 1px solid rgb(174, 149, 211);
+	left: 430px;
+	top: 70px;
+}
+.C3{
+	height: 60px;
+	width: 700px;
+	background-color: rgb(0, 0, 90);
+	position: absolute;
+	border: 1px solid rgb(0, 0, 90);
+	left: 430px;
+	top: 470px;
+}
+.C4{
+	height: 300px;
+	width: 700px;
+	position: absolute;
+	background-color: rgb(174, 149, 211);
+	border: 1px solid rgb(174, 149, 211);
+	left: 430px;
+	top: 530px;
+}
+.A1{
+	height: 25px;
+	width: 25px;
+	background-color: rgb(161, 69, 255);
+	border: 1px solid rgb(161, 69, 255);
+	border-radius: 80%;
+	font-size: 20px;
+	position: absolute;
+	left: 90px;
+	top: 18px;
+	color: white;
+}
+.A2{
+	color: white;
+	font-size: 15px;
+	position: absolute;
+	left: 120px;
+	top: 22px;
+}
+.A3{
+	position: absolute; 
+	top: 5px;
+	left: 300px;
+	color: white;
+}
+a{
+	text-decoration: none;
+	color: white;
+}
+.q{
+	color: white;
+	position: absolute;
+	left: 260px;
+	text-decoration: none;
+	top: 15px;
+	list-style-type: none;
+	height: 28px;
+	width: 80px;
+	background-color: rgb(161, 69, 255);
+	border: 1px solid rgb(161, 69, 255);
+	border-radius: 45%;
+}
+.W1{
+	position: absolute;
+	font-size: 25px;
+	font-weight: bold;
+	left: 160px;
+	top: 40px;
+}
+.W2{
+	position: absolute;
+	left: 270px;
+	top: 140px;
+}
+.W3{
+	position: absolute;
+	left: 150px;
+	top: 150px;
+	height: 50px;
+	width: 120px;
+	background-color: rgb(161, 69, 255);
+	color: white;
+	border-radius: 30px;
+	font-size: 15px;
+}
+.W4{
+	position: absolute;
+	left: 440px;
+	top: 290px;
+	height: 50px;
+	width: 120px;
+	background-color: rgb(161, 69, 255);
+	color: white;
+	border-radius: 30px;
+	font-size: 15px;
+}
+.m1{
+    background-color: rgb(161, 69, 255); 
+    border: 1px solid rgb(161, 69, 255); 
+    height: 70px; 
+    width: 70px; 
+    border-radius: 30%; 
+    font-weight: bolder; 
+    color: white;
+    font-size: 20px; 
+    box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.5);
+}
+.m2{
+	color: white;
+	position: absolute;
+	top: 210px;
+	left: 115px;
+	font-weight: bold;
+	opacity: 85%;
+}
+.m3{
+	color: white;
+	position: absolute;
+	top: 210px;
+	left: 327px;
+	font-weight: bold;
+	opacity: 85%;
+}
+.m4{
+	color: white;
+	position: absolute;
+	top: 210px;
+	left: 536px;
+	font-weight: bold;
+	opacity: 85%;
+}
